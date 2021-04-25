@@ -1,0 +1,18 @@
+.header {
+    background-color: $jelly-bean;
+    color: $white;
+    text-align: center;
+    padding: 130px;
+    & span {
+        font-weight: $bold;
+    }
+}
+
+@media (min-width: 320px) and (max-width: 567px) {
+    .header {
+        padding: 60px 20px;
+        & h1 {
+            font-size: $medium;
+        }
+    }
+}

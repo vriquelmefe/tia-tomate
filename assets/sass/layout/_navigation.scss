@@ -1,0 +1,14 @@
+.navigation {
+    background-color: $white;
+    &__image {
+        height: 60px;
+        padding: 10px 60px;
+    }
+}
+
+@media (min-width: 320px) and (max-width: 567px) {
+    .navigation__image {
+        height: 50px;
+        padding-left: 20px;
+    }
+}

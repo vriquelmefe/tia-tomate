@@ -1,0 +1,107 @@
+.section-about {
+    width: 100%;
+    text-align: center;
+    margin: 0;
+    &__tittle {
+        background-color: $jelly-bean;
+        color: $white;
+        padding: 2rem;
+        & h2 {
+            font-size: $x-large;
+        }
+    }
+    &__articule-image {
+        width: 30%;
+        padding-top: 3rem;
+    }
+    &__text {
+        width: 60%;
+        text-align: left;
+        margin: auto;
+        padding: 1rem 2rem;
+        &-tittle {
+            text-align: center;
+            padding-bottom: 1rem;
+        }
+    }
+}
+
+@media (min-width: 721px) and (max-width: 920px) {
+    .section-about {
+        &__tittle {
+            padding: 2rem;
+            & h2 {
+                font-size: $large;
+            }
+        }
+        &__articule-image {
+            width: 50%;
+        }
+        &__text {
+            width: 90%;
+            &-tittle {
+                font-size: $medium;
+            }
+        }
+    }
+}
+
+@media (min-width: 721px) and (max-width: 920px) {
+    .section-about {
+        &__tittle {
+            padding: 2rem;
+            & h2 {
+                font-size: $large;
+            }
+        }
+        &__articule-image {
+            width: 50%;
+        }
+        &__text {
+            width: 70%;
+            &-tittle {
+                font-size: $medium;
+            }
+        }
+    }
+}
+
+@media (min-width: 568px) and (max-width: 720px) {
+    .section-about {
+        &__tittle {
+            padding: 2rem;
+            & h2 {
+                font-size: $large;
+            }
+        }
+        &__articule-image {
+            width: 50%;
+        }
+        &__text {
+            width: 80%;
+            &-tittle {
+                font-size: $medium;
+            }
+        }
+    }
+}
+
+@media (min-width: 320px) and (max-width: 567px) {
+    .section-about {
+        &__tittle {
+            padding: 2rem;
+            & h2 {
+                font-size: $large;
+            }
+        }
+        &__articule-image {
+            width: 50%;
+        }
+        &__text {
+            width: 90%;
+            &-tittle {
+                font-size: $medium;
+            }
+        }
+    }
+}

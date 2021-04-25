@@ -1,0 +1,10 @@
+.form {
+    background-color: $jelly-bean;
+    text-align: center;
+    color: $white;
+    padding-bottom: 2rem;
+    &__tittle {
+        padding-top: 2rem;
+        padding-bottom: 1rem;
+    }
+}
